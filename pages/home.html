@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors Game</title>
+        <script src="../scripts/jquery.js">
+
+        </script>
+        <script src="../scripts/script.js">
+
+        </script>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+    </head>
+    <body>
+        <div class="mother">
+        <div class="computer">
+           <span class="game_user">COMPUTER</span><br>
+           <img src="../images/rock.png" class="game_images" id="c_1"><br>
+           <img src="../images/paper.png" class="game_images" id="c_2"><br>
+           <img src="../images/scissors.png" class="game_images" id="c_3"><br>
+        </div>
+        <div class="scoreboard">
+            <span class="rock">ROCK</span>
+            <span class="paper">PAPER</span>
+            <span class="scissors">SCISSORS</span><br>
+          <span class="scores">SCORES</span><br>
+    
+    
+          <span class="computer_text">COMPUTER</span>
+          <span class="computer_score" id="c_score">0</span>
+          
+          <span class="user_text">USER</span>
+          <span class="user_score" id="u_score">1</span><br>
+    
+           <div class="instruct">
+          <p><span class="how_to">HOW TO PLAY</span><br>
+          <span class="instructions">After the rock paper scissor animation select an image on the user side and the computer would automatically choose and the winner would be determined</span>
+            </p>
+            </div>
+    </div>
+        <div class="user">
+          <span class="game_user">USER</span><br>
+          <img src="../images/rock.png" class="game_images" id="user_rock"><br>
+          <img src="../images/paper.png" class="game_images" id="user_paper"><br>
+          <img src="../images/scissors.png" class="game_images" id="user_scissors"><br>
+        </div>
+        </div>
+
+        <div class="overlay" id="overlay4">
+            <span class="overlay_text"  >PLAY</span>
+        </div>
+        <div class="overlay" id="overlay5">
+            <span class="overlay_text" style="color:lime" >YOU WON</span>
+        </div>
+        <div class="overlay" id="overlay6">
+            <span class="overlay_text"  style="color:red">YOU LOOSE</span>
+        </div>
+        <div class="overlay" id="overlay7">
+            <span class="overlay_text"  style="color:yellow">DRAW</span>
+        </div>
+    </body>
+    <script src="../scripts/command.js">
+
+    </script>
+</html>

@@ -1,0 +1,35 @@
+
+so the first thing i did was to create the game alorgithm in javascript
+ and test
+
+made the three game variables set two inputs from user and computer 
+randomise the computers own then set conditions for the winner easy
+
+e dan tey since is use javascript me sef dey try okay it simliar to pytthon and others
+ the only stress here is just that you have to set combination for every possible combinations
+
+
+ now with that set lets input variables and try them out lets manuals aet values for them
+
+ fine alorgithm works fine
+
+ i figured out javascript uses a method random can couldn't do taht with strings so i had to use arrays 
+
+ now i had to do the indivual pages for jquery to work and do some shitty css smh 😩😩
+ the first i did was the home page to start the game i might add a background animation tho 
+ okay i have made the first page time to make it dynamic man i have to read jquery again smh
+
+ so i face an issues with cors request and now the whole page might have to be complicated asf
+
+ okay i found a way but i have to sacrifice the index page now i need the page to interact with the alorgithm
+
+ okay to be honest frontend get to much stress imma stick to adobe xd
+
+ okay cool i was able do buld a simple ui for the game now to make it interactive
+
+ i'm done just to add some cool features fun fact the backend for the game i just wrote it i didnt debug tested it and it worked fine 
+ but nah frontend ehn nah stress
+
+ i'm adding some cool animation
+
+ well i'm too tired to work on animation timing so lets leave it there

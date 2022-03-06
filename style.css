@@ -1,0 +1,188 @@
+body{
+    margin:0px;
+    background-image: url('images/background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start_box{
+    background-color: grey;
+    border: lime solid 1px;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: medium;
+    font-weight: bold;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.input_start_box{
+   background-color: ghostwhite;
+   border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-weight: 10px;
+}.error_box{
+    border: solid red 1px;
+}
+.start_btn{
+    border: none;
+    background-color: lime;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 10px;
+    
+}
+.label{
+    color:gray;
+    font-size:18px;
+}
+.rock{
+    color:lime;
+}
+.paper{
+ color: red;
+}
+.scissors{
+color:aqua;
+}
+.title_text{
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    opacity: 85%;
+    text-shadow: 0.5px 0.5px 1px #aaaaaa;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    
+}
+.mother{
+    display: flex;
+    flex-flow: row ;
+}
+.computer{
+    
+    text-align: center;
+    padding:10px;
+    border:yellow solid 7px;
+    color: ghostwhite;
+    border-radius: 5px;
+    margin:50px;
+}
+.user{
+ 
+    text-align: center;
+    padding:10px;
+    border: lime solid 7px;
+    color: ghostwhite;
+    border-radius: 5px;
+    margin:50px;
+}
+.game_images{
+       align-self: center;
+       width: 100px;
+       height:100px;
+       border-radius: 10px;
+       margin:20px;
+    
+}
+.scoreboard{
+
+    text-align: center;
+    padding:10px;
+    border: red solid 7px;
+    color: ghostwhite;
+    border-radius: 5px;
+    margin:50px;
+}
+.scores{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color: thistle;
+}
+.game_user{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    color: tomato;
+}
+.computer_text{
+    float: left;
+    margin: 20px;
+    font-size: 25px;
+    color: yellow;
+    font-family: fantasy;
+    
+
+}
+.computer_score{
+    float:left;
+    margin: 20px;
+    font-size: 25px;
+    color: aqua;
+}
+.user_score{
+  float: right;
+  margin: 20px;
+  font-size: 25px;
+  color: lightskyblue;
+}
+.user_text{
+    float: right;
+    margin:20px;
+    font-size: 25px;
+    padding-right: 30px;
+    color:lime;
+    font-family: fantasy;
+}
+.how_to{
+   font-size: 25px;
+   margin:10px;
+   color: magenta;
+}
+.instructions{
+  font-size: 20px;
+  margin:10px;
+  color: aquamarine;
+  
+}
+.instruct{
+    margin:30px;
+    padding: 50px;
+    font-family: fantasy;
+}
+.overlay{
+    position: fixed; 
+    width: 100%;
+    height: 100%; 
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2; 
+    cursor: pointer; 
+}
+.overlay_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 100px;
+    font-family:cursive;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
